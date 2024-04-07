@@ -2,6 +2,7 @@
   "code": 200,
   "message": "OK",
   "data": {
-    "jwt_token": "23kshfsu82@#$34rwakjh"
+    "auth_number": "111111",
+    "expire": 180000
   }
 }
