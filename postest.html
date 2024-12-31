@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebView Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        // modaCall 함수 정의
+        function modaCall(message) {
+            const textBox = document.getElementById("messageBox");
+            textBox.value = message;
+        }
+    </script>
+</head>
+<body>
+<h1>WebView Message Test</h1>
+<p>아래 텍스트박스에 앱에서 전달한 메시지가 표시됩니다:</p>
+<input type="text" id="messageBox" placeholder="메시지가 여기에 표시됩니다" readonly>
+</body>
+</html>
